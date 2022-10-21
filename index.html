@@ -1,0 +1,202 @@
+<!--HW, DOCTYPE tag-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!--HW, meta-->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--HW, titile element-->
+    <title>Home</title>
+    <!--HW, Base tag, here i didnt connect any hyperlink or target as it wont show a valid page even if i did-->
+    <base href="" target="">
+</head>
+<body>
+    <!--HW, h1-h6 element-->
+    <h1>WebDev-101</h1>
+    <!--used anchor tag for file pathing-->
+    <br><a href="pages/about.html">About</a>
+    <h2>Lorem ipsum dolor sit amet</h2>
+    <h3>Lorem ipsum dolor sit amet</h3>
+    <h4>Lorem ipsum dolor sit amet</h4>
+    <h5>Lorem ipsum dolor sit amet</h5>
+    <h6>Lorem ipsum dolor sit amet</h6>
+    <a href="https://www.lipsum.com" target="_blank">visit lorem ipsum</a>
+    <p> This is my first web page using <b>html</b>.</p>
+    <!--HW, abbr element-->
+    The <abbr title="International Business Machines Corporation">IBM</abbr> personal computer was first introduced in August 12, 1981
+    <!--HW, area tag using img tag and map element-->
+    <h2>Area tag using img tag & map element</h2>
+    <br><img src="images/circuits.jpg" alt="circuits" usemap="#image-map">
+
+    <map name="image-map">
+        <area shape="rect" coords="73,13,299,141" href="https://www.facebook.com/PCBExpertBD" target="_blank" alt="PCB boards" title="PCB boards">
+        <area shape="circle" coords="62,188,32" href="https://www.sony.co.uk/lenses" target="_blank" alt="Lens" title="Lens">
+    </map>
+    <!--HW address element-->
+    <h2>Address element</h2>
+    <address>
+        written by <a href="https://www.linkedin.com/in/ikramomi23/" target="_blank">Ikram Ul Islam Omi</a><br>
+        visit us at: <br>
+        example.com<br>
+        <p><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d912.8195896899115!2d90.35906411514692!3d23.773100095753502!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755c0a31605e4c3%3A0xd475107c223171f!2sAdabor%20Main%20Rd%2C%20Dhaka!5e0!3m2!1sen!2sbd!4v1666101400108!5m2!1sen!2sbd" width="320" height="240" style="border:0;" allowfullscreen="" loading="eager" referrerpolicy="no-referrer-when-downgrade"></iframe></p>
+    </address>
+    <!--HW, article element-->
+    <h2>Article element</h2>
+    <article>
+        <b> This is an article</b>
+    </article>
+    <!--HW, aside element-->
+    <h2>Aside element</h2>
+    <aside>
+        <b>Content of an aside element should be indirectly related to the surrounding content.</b>
+    </aside>
+    <!--HW, BDI or Bi-Directional Isolation element is used to isolate the usernames from the surrounding text-direction settings-->
+    <h2>BDI or Bi-Directional Isolation element</h2>
+    <p>In the example below, usernames are shown along with the number of points in a contest. If the bdi element is not supported in the browser, the username of the Arabic user would confuse the text (the bidirectional algorithm would put the colon and the number "90" next to the word "User" rather than next to the word "points").</p>
+    <ul>
+    <li>User <bdi>hrefs</bdi>: 60 points</li>
+    <li>User <bdi>jdoe</bdi>: 80 points</li>
+    <li>User <bdi>إيان</bdi>: 90 points</li>
+    </ul>
+    <!--HW, BDO or Bi-Directional Override element is used to override the current text direction.-->
+    <h2>BDO or Bi-Directional Override element</h2>
+    <bdo dir="rtl">
+        this text will start from right side.<!--with a mirror-->
+    </bdo>
+    <!--HW, blockquote, which is used to define a quote from a different source or server-->
+    <h2>Blockquote element</h2>
+    <p>Here is a quote from Lockheed Martin</p>
+    <blockquote cite="https://www.lockheedmartin.com/en-us/products/f-35.html">
+    The F-35 strengthens national security, enhances global partnerships and powers economic growth. As the most lethal, survivable and connected fighter jet in the world, the F-35 gives pilots the critical advantage against any adversary, enabling them to execute their mission and come home safe.
+    </blockquote>
+    <!--HW, body element is used to define the body of a htmll document-->
+    <!--HW, br tag is used to break a line, i've used it multiple times in this project.-->
+    <!--HW, button element creates a clickable area-->
+    <h2>Button element</h2>
+    <button type="button"><b>Click Here!</b></button>
+    <!--HW, Canvas Element, didnt understand the concept-->
+    <h2>Canvas element</h2>
+    <p>Wasn't able to grasp the idea of it</p>
+    <!--HW, caption element defines a table caption, it must be used immediately after a table element's start.-->
+    <h2>Caption element</h2> 
+    <table>
+        <caption>Monthly savings</caption>
+        <tr>
+          <th>Month</th>
+          <th>Savings</th>
+          <th>Total spending</th>
+        </tr>
+        <tr>
+          <td>January</td>
+          <td>X tk.</td>
+          <td>P tk</td>
+        </tr>
+        <tr>
+          <td>February</td>
+          <td>Y tk.</td>
+          <td>Q tk.</td>
+        </tr>
+      </table>
+    <!--HW, the cite element, which defines the title of a creative work-->
+    <h2>Cite element</h2>
+    <p>Zainul Abedin drew <cite>Rangamoti</cite> in 1955.</p>
+    <!--HW, the code element is used to define a computer code -->
+    <h2>Code element</h2>
+    <p>The HTML <code>button</code> tag defines a clickable button.</p>
+    <!--HW, colgoup element and col tag-->
+    <h2>Colgroup element and col tag</h2>
+    <table>
+        <colgroup>
+          <col span="2" style="background-color:red">
+          <col style="background-color:yellow">
+        </colgroup>
+        <tr>
+          <th>ISBN</th>
+          <th>Title</th>
+          <th>Price</th>
+        </tr>
+        <tr>
+          <td>3476896</td>
+          <td>My first HTML</td>
+          <td>$53</td>
+        </tr>
+      </table>
+    <!--HW, data element-->
+    <h2>Data element</h2>
+        <p>The following example displays product names but also associates each name with a product number:</p>
+        <ul>
+            <li><data value="21053">Cherry Tomato</data></li>
+            <li><data value="21054">Beef Tomato</data></li>
+            <li><data value="21055">Snack Tomato</data></li>
+        </ul>
+    <!--HW, The datalist element-->
+    <h2>The datalist element</h2>
+
+    <form action="/action_page.php" method="get">
+      <label for="media">Choose your media type from the list:</label>
+      <input list="medias" name="media" id="media">
+      <datalist id="media">
+        <option value="Audio">
+        <option value="Movies">
+        <option value="Text">
+        <option value="Software">
+        <option value="Data">
+      </datalist>
+      <input type="submit">
+    </form>
+    <p><strong>Note:</strong> The datalist tag is not supported in Safari 12.0 (or earlier).</p>
+    <!--HW, dl,dd and dt elements are used in in description list-->
+    <h2>DL, DD, and DT elements</h2>
+    <p>These 3 elemets are used to define a description list</p>
+    <dl>
+        <dt>HTML</dt>
+        <dd>It's a markup lang</dd>
+        <dt>C#</dt>
+        <dd>Its a programming language</dd>
+    </dl>
+    <!--HW, del element, why this element exists in the first place???-->
+    <h2>Del element</h2>
+    <p>I love <del>playing</del>watching football.</p>
+    <!--HW, detail element specifies additional details which the user can open and close on demand-->
+    <h2>Detail element</h2>
+    <details>
+        <summary>Detail element</summary>
+        <p>The tag is often used to create an interactive widget that the user can open and close. By default, the widget is closed. When open, it expands, and displays the content within.Any sort of content can be put inside the detail tag/element.The summary tag is used in conjunction with details to specify a visible heading for the details.</p>
+    </details>
+    <!--HW, the dfn tag is used to specify a term that is going to be defined within the content.-->
+    <h2>Dfn element</h2>
+    <p>The <dfn><abbr title="Defination">dfn</abbr></dfn> tag is used to specify a term that is going to be defined within the content</p>
+    <!--HW, dialog element-->
+    <h2>Dialog element</h2>
+    <p>This is some text.</p>
+    <p>This is some text.</p>
+    <dialog open>The dialog tag defines a dialog box or subwindow. The dialog element makes it easy to create popup dialogs and modals on a web page</dialog>
+    <p>This is some text.</p>
+    <p>This is some text.</p>
+    <!--div element is used for css styling-->
+    <!--HW, em element-->
+    <h2>Em element</h2>
+    <p>Em tag/element is used to define<em>emphasized</em> text. The content inside is typically displayed in italic.A screen reader will pronounce the words in <(em)> with an emphasis, using verbal stress. </p>
+    <!--HW, embed tag-->
+    <h2>Embed tag</h2>
+    <embed type="" src="" width="" height="">
+    <!--HW,fieldset-->
+    <h2>Fieldset element</h2>
+      <form action="/action_page.php">
+      <fieldset>
+      <legend>Personalia:</legend>
+      <label for="fname">First name:</label>
+      <input type="text" id="fname" name="fname"><br><br>
+      <label for="lname">Last name:</label>
+      <input type="text" id="lname" name="lname"><br><br>
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email"><br><br>
+      <label for="birthday">Birthday:</label>
+      <input type="date" id="birthday" name="birthday"><br><br>
+      <input type="submit" value="Submit">
+      </fieldset>
+      </form>
+
+</body>
+</html>
+
